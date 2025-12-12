@@ -33,7 +33,7 @@ export default function Servicos() {
     ];
 
     return (
-        <section className="py-16 px-4" id="servicos">
+        <section className="py-10 px-4 funnel-sans-light" id="servicos">
             <h2 className="text-3xl font-bold text-center mb-12">Nossos Serviços</h2>
             <div className="max-w-6xl mx-auto space-y-8">
                 {services.map((service, index) => (
@@ -49,7 +49,7 @@ export default function Servicos() {
                                 className="w-full h-full object-cover"
                             />
                         </div>
-                        <div className="md:w-1/2 p-8 flex flex-col justify-center">
+                        <div className="md:w-1/2 p-4 flex flex-col justify-center">
                             <h3 className="text-2xl font-bold mb-4">{service.title}</h3>
                             <p className="text-gray-600">{service.description}</p>
                         </div>
