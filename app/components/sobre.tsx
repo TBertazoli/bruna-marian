@@ -2,10 +2,12 @@ import { PhoneIcon } from '@heroicons/react/24/outline';
 
 export default function Sobre() {
     return (
-        <section className="py-16 funnel-sans-light" id="sobre">
+        <section className="py-12 funnel-sans-light" id="sobre">
             <div className="max-w-6xl mx-auto px-4">
+                <h2 className="text-3xl md:text-3xl font-semibold mb-4 text-gray-900">Dra. Bruna Marian - CRBMSP 70661</h2>
                 <div className="grid md:grid-cols-2 gap-12 items-center">
-                    <div className="">
+
+                    <div>
                         <div className="overflow-hidden border-2 border-gray-200">
                             <img
                                 src="/images/sobre.jpeg"
@@ -16,7 +18,7 @@ export default function Sobre() {
                     </div>
 
                     <div className="max-w-xl mx-auto">
-                        <h2 className="text-3xl md:text-3xl font-semibold mb-4 text-gray-900">Dra. Bruna Marian - CRBMSP 70661</h2>
+
 
                         <p className="text-gray-700 mb-4 leading-relaxed text-justify">Com formação em Biomedicina e especialização em Biomedicina Estética, Dra. Bruna Marian atua com excelência na área de Harmonização Facial e Tricologia, unindo conhecimento científico, técnica avançada e olhar estético apurado. Sua prática é guiada por princípios de segurança, naturalidade e individualidade, oferecendo tratamentos personalizados que valorizam a beleza única de cada paciente.</p>
 

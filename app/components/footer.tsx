@@ -30,7 +30,7 @@ export default function Footer() {
                                     aria-label="WhatsApp da Bruna Marian Estética"
                                     className="hover:text-black transition-colors"
                                 >
-                                    WhatsApp: (19) 99836-2654
+                                    WhatsApp: (19) 99676-1467
                                 </a>
                             </li>
                             <li className="flex items-center gap-3 justify-center md:justify-start">
