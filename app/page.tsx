@@ -1,16 +1,17 @@
 import Header from "./components/header";
 import Footer from "./components/footer";
-import Servicos from "./components/servicos";
-import Sobre from "./components/sobre";
+import About from "./components/about";
 import Hero from "./components/hero";
+import Procedimentos from "./components/procedimentos";
+
 
 export default function Home() {
   return (
     <>
       <Header />
-      {/* <Hero /> */}
-      <Sobre />
-      <Servicos />
+      <Hero />
+      <About />
+      <Procedimentos />
       <Footer />
     </>
   );
