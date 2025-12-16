@@ -13,14 +13,15 @@ export default function Header() {
             <nav className="max-w-6xl mx-auto flex items-center justify-between py-3 px-8">
 
                 {/* Logo */}
-                <Link href="/" className="font-serif text-2xl text-gray-800">
+                <Link href="/" className="font-serif text-2xl text-gray-800" aria-label="Página inicial Bruna Marian Estética">
                     <Image
-                        alt="Bruna Marian Estética"
+                        alt="Logo Bruna Marian Estética - Especialista em Harmonização Facial e Tricologia em Campinas"
                         src="/images/BrunaMarianLogo.png"
                         width={120}
                         height={68}
                         priority
-                        className="max-h-19 w-auto" />
+                        className="max-h-19 w-auto"
+                    />
                 </Link>
 
                 {/* Desktop Menu */}
@@ -42,7 +43,7 @@ export default function Header() {
             {/* Mobile Menu */}
             {open && (
                 <div className="md:hidden bg-white border-t shadow-md px-6 py-4 font-sans space-y-4">
-                    <Link href="/" onClick={() => setOpen(false)}>Início</Link><br />
+                    <Link href="/" onClick={() => setOpen(false)} className="pb-4">Início</Link><br />
                     <Link href="#servicos" onClick={() => setOpen(false)}>Procedimentos</Link><br />
                     <Link href="#sobre" onClick={() => setOpen(false)}>Sobre</Link><br />
                     <Link href="#contato" onClick={() => setOpen(false)}>Contato</Link>

@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Procedimentos() {
     const procedimentos = [
         {
@@ -48,16 +50,19 @@ export default function Procedimentos() {
                     <div
                         key={procedimento.id}
                         className={`flex flex-col ${index % 2 === 0
-                                ? "md:flex-row"
-                                : "md:flex-row-reverse"
+                            ? "md:flex-row"
+                            : "md:flex-row-reverse"
                             } gap-10 bg-white rounded-2xl shadow-md overflow-hidden`}
                     >
                         {/* Image */}
-                        <div className="md:w-1/2 h-[300px] md:h-auto">
-                            <img
+                        <div className="md:w-1/2 h-[240px] md:h-[320px] relative">
+                            <Image
                                 src={procedimento.image}
-                                alt={procedimento.title}
-                                className="w-full h-full object-cover"
+                                alt={procedimento.title + ' - ' + procedimento.description.substring(0, 60) + '...'}
+                                fill
+                                sizes="(max-width: 768px) 100vw, 50vw"
+                                className="object-cover rounded-none"
+                                priority={index === 0}
                             />
                         </div>
 
