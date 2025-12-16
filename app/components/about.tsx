@@ -2,7 +2,7 @@ import { PhoneIcon } from '@heroicons/react/24/outline';
 
 export default function About() {
     return (
-        <section id="sobre" className="py-20 bg-[#f8f5f4]">
+        <section id="sobre" className="py-10 bg-[#f8f5f4]">
             <div className="max-w-6xl mx-auto px-6">
 
                 {/* Title */}
