@@ -31,7 +31,7 @@ export function WhatsAppButton() {
     <Link href="https://wa.me/5519996761467" target="_blank"
       className="fixed bottom-6 right-6 z-50 text-white w-14 h-14 rounded-full flex items-center justify-center shadow-xl hover:bg-green-600 transition"
     >
-      <img src="/images/whatsapp.png" className="w-8 h-8" />
+      <img src="/images/whatsapp.png" alt="WhatsApp" className="w-8 h-8" />
     </Link>
   );
 }
