@@ -1,7 +1,7 @@
 
 # Bruna Marian Estética
 
-Este é o site oficial da Dra. Bruna Marian, especialista em Biomedicina Estética, Harmonização Facial e Tricologia em Campinas.
+Este é o site oficial da Dra. Bruna Marian, especialista em Biomedicina Estética, Harmonização Facial e Tratamento Capilar em Campinas.
 
 ## ✨ Sobre o Projeto
 O site apresenta os serviços oferecidos, informações sobre a profissional, e permite contato direto para agendamento de avaliações. Desenvolvido com Next.js, React, Tailwind CSS e Heroicons, priorizando performance, SEO e experiência do usuário.
@@ -58,4 +58,4 @@ public/
 - Instagram: [@brunamarian.estetica](https://www.instagram.com/bruna_marian_hof/)
 
 ---
-Desenvolvido com ❤️ por Bruna Marian e equipe.
+Desenvolvido por Cre8ive Devs

@@ -7,7 +7,7 @@ export default function Procedimentos() {
             title: "Tratamento para Microvasos (PEIM)",
             description:
                 "O PEIM (Procedimento Estético Injetável para Microvasos) é uma técnica minimamente invasiva destinada ao tratamento de microvasos e telangiectasias, comuns nas pernas. Por meio da aplicação direta de substâncias esclerosantes nos pequenos vasos, o procedimento promove o fechamento dessas estruturas, melhorando significativamente o aspecto da pele. O PEIM é rápido, seguro e não requer afastamento das atividades diárias.",
-            image: "/images/microvasos.jpg",
+            image: "/images/microvasos.png",
         },
         {
             id: 2,
@@ -40,7 +40,7 @@ export default function Procedimentos() {
     ];
 
     return (
-        <section id="servicos" className="py-20 px-6 bg-[#f8f5f4]">
+        <section id="servicos" className="py-10 px-6 bg-[#f8f5f4]">
             <h2 className="font-serif text-4xl text-center mb-16 text-gray-800">
                 Nossos Procedimentos
             </h2>

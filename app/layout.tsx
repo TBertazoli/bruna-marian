@@ -37,6 +37,7 @@ export function WhatsAppButton() {
 }
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://brunamarian.com.br"),
   title: "Bruna Marian Estética | Harmonização Facial e Tratamento Capilar em Campinas",
   description: "Dra. Bruna Marian, especialista em Biomedicina Estética, oferece procedimentos modernos e personalizados de harmonização facial, tratamento capilar e cuidados avançados em Campinas. Realce sua beleza natural com segurança e excelência.",
   keywords: [
@@ -57,6 +58,8 @@ export const metadata: Metadata = {
     "Toxina Botulínica",
     "Bioestimulador de Colágeno",
     "Preenchimento com Ácido Hialurônico",
+    "Campinas e Região",
+    "Sousas"
   ],
   openGraph: {
     title: "Bruna Marian Estética | Harmonização Facial e Tratamento Capilar em Campinas",
