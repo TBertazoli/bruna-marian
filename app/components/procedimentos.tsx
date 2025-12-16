@@ -14,7 +14,7 @@ export default function Procedimentos() {
             title: "Toxina Botulínica",
             description:
                 "A toxina botulínica suaviza linhas de expressão e proporciona aparência mais descansada e harmoniosa. Além dos benefícios estéticos, ela também é aplicada em condições clínicas, como bruxismo, hiperidrose e enxaqueca crônica.",
-            image: "/images/toxina-botulinica.jpg",
+            image: "/images/toxina-botulinica.png",
         },
         {
             id: 3,
